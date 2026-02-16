@@ -3,13 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./style.css">
-  <title>Porfolio page</title>
+  <title>portfolio page for GoMyCode</title>
+  <link rel="stylesheet" href="./styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
 </head>
 <body>
-  <header>
+  <header class="head">
     <nav class="navbar">
-      <ul>
+      <ul class="nav-list">
         <li><a href="#about">About</a></li>
         <li><a href="#work">Work</a></li>
         <li><a href="#resume">Resume</a></li>
@@ -17,27 +19,29 @@
       </ul>
     </nav>
   </header>
-  <!--Section part-->
+
   <section id="about">
     <h1>About</h1>
-    <p>Here is an Audio about myself. </p>
-    <audio src="HTML AUDIO.mp4">My Audio</audio>
+    <p><i>Here is an Audio about myself.</i></p>
+    <audio controls>
+      <source src="HTML AUDIO.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+    </audio>
     <ul>
-      <li>Focused and consistent</li> 
-      <li>15th June 2000</li>
+      <li>I'm Wisdom, Born and raised in Abuja alo from the East. focused,consistent and I believe in hardwork</li>
       <li>Anambra state</li>
     </ul>
-  </section> 
+  </section>
   <section id="work">
     <h1>Work</h1>
     <ul>
-      <li>NYSC 1 year service</li>
-      <li>Idustrial training</li>
+      <li>NYSC 1 year service in Abuja</li>
+      <li>Virtual Assistance roles</li>
     </ul>
   </section>
   <section id="resume">
     <h1>Resume</h1>
-    <p>University of Nigeria</p>
+    <p><i>University of Nigeria</i></p>
     <ul>
       <li>B.Sc in Environmental science</li>
       <li>2019-2024</li>
@@ -53,12 +57,14 @@
       <label for="email">Email:</label>
       <input type="email" name="name" id="email" required><br><br>
       <label for="message">Message:</label><br>
-      <textarea name="name" required id="message" cols="30" rows="10"></textarea><br><br>
+      <textarea name="name" required id="message" cols="30 rows="10">
+      </textarea><br><br>
       <input type="submit" value="Submit">
     </form>
   </section>
+
   <footer>
-  <p>&copy; 2026 Chukwuemeka Wisdom. All rights reserved.</p>
+    <p>&copy; 2026 Chukwuemeka Wisdom. All rights reserved.</p>
   </footer>
 </body>
 </html>
