@@ -12,7 +12,7 @@
   justify-content: space-evenly;
   align-items: center;
   padding: 10px 40px;
-  background-color: hsla(214, 59%, 53%, 0.056);
+  background-color: hsla(214, 53%, 45%, 0.163);
  }
 
  .navbar ul {
@@ -41,6 +41,7 @@
 }
 
 section {
+  display: block;
   text-align: center;
   margin-top: 100px;
 }
